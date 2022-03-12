@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaccination</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="icon" href="./assets/img/syringe-vaccine.svg" type="image/x-icon">
+    <link rel="icon" href="./assets/icons/syringe-vaccine.svg" type="image/x-icon">
 </head>
 <body>
     <header>
-        <a class="logo" href="index.html"><img src="./assets/img/logo.svg" alt="vaccination logo"></a>
+        <a class="logo" href="index.html"><img src="./assets/logos/logo.svg" alt="vaccination logo"></a>
         <nav>
             <ul class="nav-links">
                 <li><a href="#">Database</a></li>
@@ -21,60 +21,123 @@
         </nav>
         <a href="#" class="btn"><button>Hoax Buster</button></a>
     </header>
-    <section class="main-content">
-        <h1>Fight Virus With Vaccines</h1>
-        <p>Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get involved.</p>
-        <img src="https://doodleipsum.com/700x1000/outline?i=2c350be916b8b173cd3026cbcdea1acb" alt="Female Doctor Holding a Syringe">
+    <section>
+        <div class="container1">
+            <div class="first-section-text">
+                <h1 class="section__title fight-virus__title">Fight Virus With Vaccines</h1>
+                <p class="section__text fight-virus__text">Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected.</p>
+                <div class="quality-quantifiers">
+                    <div class="icon__properties">
+                        <img src="./assets/icons/shield-fill-check-yellow.svg" alt="shield check icon">
+                        <p>Best Protection</p>
+                    </div>
+                    <div class="icon__properties">
+                        <img src="./assets/icons/round-star-yellow.svg" alt="star icon">
+                        <p>Selected Vaccines</p>
+                    </div>
+                </div>
+                <div class="icon__properties schedule-vaccines">
+                    <img src="./assets/icons/clock.svg" alt="clock icon">
+                    <p>Schedule your vaccines</p>
+                </div>
+                <div class="floating-content">
+                    <div class="location__box">
+                        <div class="location icon__properties">
+                            <img src="./assets/icons/map-pin-2-fill.svg" alt="location icon">
+                            <p id="floating__text">Location</p>
+                        </div>
+                        <input type="text" name="location" id="location__input" placeholder="Jakarta Utara" class="location__width">
+                    </div>
+                    <div class="date__box">
+                        <div class="date icon__properties">
+                            <img src="./assets/icons/calendar-fill.svg" alt="calendar icon">
+                            <p id="floating__text">Date</p>
+                        </div>
+                        <input type="text" name="date" id="date__input" placeholder="11 March 2022" class="date__width">
+                    </div>
+                    <div class="vaccine__box">
+                        <div class="vaccine icon__properties">
+                            <img src="./assets/icons/syringe.svg" alt="vaccine icon">
+                            <p id="floating__text">Vaccine</p>
+                        </div>
+                        <input type="text" name="vaccine" id="vaccine__input" placeholder="Moderna" class="vaccine__width">
+                    </div>
+                    <div class="btn__box">
+                        <a href="#" class="btn submit__btn"><button>Submit</button></a>
+                    </div>
+                </div>
+            </div>
+            <img class="female__nurse" src="./assets/img/female-doctor.jpg" alt="Female Doctor Holding a Syringe">
+        </div>
+    </section>
+    <section>
+        <div class="vaccine-logos">
+            <a href="https://www.astrazeneca.com/"><img src="./assets/logos/AstraZeneca.svg" alt="AstraZeneca Logo"></a>
+            <a href="http://www.sinovac.com/"><img src="./assets/logos/Sinovac_logo.svg" alt="Sinovac Logo"></a>
+            <a href="https://www.pfizer.com/"><img src="./assets/logos/Pfizer_Logo_Color_RGB.svg" alt="Pfizer Logo"></a>
+            <a href="https://www.modernatx.com/"><img src="./assets/logos/Moderna_logo.svg" alt="Moderna Logo"></a>
+        </div>
     </section>
     <section class="vaccine-information">
-        <h2>Why should I vaccine?</h2>
-        <p>In order to avoid any doubts about getting the COVID-19 vaccine, identify the following 4 benefits of COVID-19 vaccination: </p>
+        <h1 class="section__title">Why Should I Vaccine?</h1>
+        <p class="section__text">In order to avoid any doubts about getting the COVID-19 vaccine, identify the following 4 benefits of COVID-19 vaccination: </p>
     </section>
     <section class="vaccine-preparation">
-        <h2>Preparations Before Vaccine</h2>
-        <p>The success of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work: </p>
-        <img src="https://doodleipsum.com/700x1000/outline?i=cb611bd4a1ccad1faa4a012dcfd9b498" alt="Female with mask">
+        <h1 class="section__title">Preparations Before Vaccine</h1>
+        <p class="section__text">The success of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work: </p>
+        <img class="logo__size" src="./assets/img/front-view-young-woman-sterile-mask-yellow-wall.jpg" alt="Female with mask">
     </section>
     <section class="vaccination-info">
-        <h2>Emergency Contact</h2>
-        <p>Contact one of the contacts below if you or your family fell unwell and have similar symptoms such as COVID-19, make sure you also take care of yourself before reporting to us: </p>
-        <img src="https://doodleipsum.com/700x1000/outline?i=c03e7275e5d70c0305b16230cb66f01c" alt="Male Doctor">
+        <h1 class="section__title">Emergency Contact</h1>
+        <p class="section__text">Contact one of the contacts below if you or your family fell unwell and have similar symptoms such as COVID-19, make sure you also take care of yourself before reporting to us: </p>
+        <img class="logo__size" id="doctor__image" src="./assets/img/portrait-man-doctor-using-cellphone.jpg" alt="Male Doctor">
     </section>
     <footer>
-        <div class="upper-footer">
-            <dl class="left-upper-footer">
-                <dt>Vaccination</dt>
-                <dd>Our goal is to help the world free from ongoing pandemic</dd>
-            </dl>
-            <ul class="right-upper-footer">
-                <li>About</li>
-                    <ul class="about-list">
-                        <li>About Us</li>
-                        <li>Features</li>
-                        <li>News & Blog</li>
+        <div class="container">
+            <div class="main-footer">
+                <div class="footer-logo">
+                    <img src="./assets/logos/logo.svg" alt="Vaccination logo">
+                </div>
+                <div class="data">
+                    <ul>
+                        <li>
+                            <h2>About</h2>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">News & Blog</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2>Company</h2>
+                            <ul>
+                                <li><a href="#">How We Work?</a></li>
+                                <li><a href="#">Capital</a></li>
+                                <li><a href="#">Security</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2>Support</h2>
+                            <ul>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Support Center</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                <li>Company</li>
-                    <ul class="company-list">
-                        <li>How We Work?</li>
-                        <li>Capital</li>
-                        <li>Security</li>
-                    </ul>
-                <li>Support</li>
-                    <ul class="support-list">
-                        <li>FAQs</li>
-                        <li>Support Center</li>
-                        <li>Contact Us</li>
-                    </ul>
-            </ul>
-        </div>
-        <div class="lower-footer">
-            <ul class="left-lower-footer">
-                <li>&#174; Vaccination. All right reserved.</li>
-            </ul>
-            <ul class="right-lower-footer">
-                <li>Terms & Agreements</li>
-                <li>Privacy Policy</li>
-            </ul>
+                </div>
+            </div>
+            <div class="lower-footer">
+                <div class="copyright__legal">
+                    <div class="copyright">
+                        <h3>&#169; 2021 Vaccination. All rights reserved.</h3>
+                    </div>
+                    <div class="legal">
+                        <a href="#">Terms & Agreements</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

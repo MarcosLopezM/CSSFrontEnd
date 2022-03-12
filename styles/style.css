@@ -13,12 +13,27 @@ li, a, button{
     text-decoration: none;
 }
 
+.section__title{
+    color: #1b2d79;
+    font-weight: 800;
+    font-size: 45pt;
+    position: relative;
+}
+
+.section__text{
+    color: #98a2b3;
+    font-weight: 500;
+    font-size: 14pt;
+    position: relative;
+}
+
+/* =============== Header style =============== */
 header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .logo{
@@ -56,4 +71,179 @@ button{
 
 button:hover{
     background-color: rgba(45, 76, 203, 0.8);
+}
+
+/* =============== Fight Virus with Vaccines's style =============== */
+.container1{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.first-section-text{
+    position: relative;
+}
+.fight-virus__title{
+    /* margin-top: 120px; */
+    width: 80%;
+    text-align: left;
+    top: 15%;
+    left: 20%;
+}
+
+.fight-virus__text{
+    width: 80%;
+    top: 18%;
+    left: 20%;
+}
+
+.quality-quantifiers{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    width: 70%;
+    margin-top: 5px;
+    top: 25%;
+    left: 20%;
+}
+
+.icon__properties{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    gap: 1.5rem;
+}
+
+.icon__properties img{
+    height: auto;
+    width: 20px;
+    vertical-align: text-top;
+}
+
+.icon__properties p{
+    color: #1b2d79;
+    font-weight: 500;
+    font-size: 12pt;
+}
+
+.schedule-vaccines{
+    position: relative;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+}
+
+.schedule-vaccines p{
+    vertical-align: middle;
+    color: #1b2d79;
+    font-weight: 600;
+    font-size: 16pt;
+}
+
+.floating-content{
+    width: 860px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 6px;
+    top: 82%;
+    left: 25%;
+    background: #ffffff;
+    padding: 30px;
+}
+
+.location__box, .date__box, .vaccine__box{
+    left: 15px;
+}
+
+.location, .date, .vaccine img{
+    height: auto;
+    width: 20px;
+}
+
+#floating__text{
+    color: #98a2b3;
+    font-weight: 500;
+    font-size: 16pt;
+    margin-top: 8px;
+}
+
+#location__input, #date__input, #vaccine__input{
+    border: none;
+    margin-top: 9px;
+    margin-right: 5px;
+    font-weight: 700;
+    font-size: 14pt;
+    left: 4px;
+}
+
+#vaccine__input{
+    position: relative;
+    left: 50px;
+    /* width: 150px; */
+}
+
+.location__width{
+    width: 150px;
+}
+
+.date__width{
+    width: 150px;
+}
+
+.vaccine__width{
+    width: 97px;
+}
+
+::placeholder{
+    color: #1b2d79;
+}
+
+.submit__btn{
+    position: relative;
+    left: 20px;
+}
+
+.female__nurse{
+    height: auto;
+    width: 100%;
+}
+
+
+/* =============== Vaccines' section style =============== */
+.vaccine-logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vaccine-logos a img{
+    height: auto;
+    width: 250px;
+    margin: 20px 0;
+    filter: grayscale(100%);
+    opacity: 0.1;
+}
+
+.vaccine-logos a img:hover{
+    filter: grayscale(0);
+    opacity: 0.8;
+}
+
+.logo__size{
+    height: auto;
+    width: 50%;
+}
+
+/* =============== Why Should I Vaccine's section style =============== */
+
+/* =============== Preparations Before Vaccine's section style =============== */
+
+/* =============== Emergency Contact's section style =============== */
+#doctor__image{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
