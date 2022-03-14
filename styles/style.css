@@ -239,6 +239,75 @@ button:hover{
 }
 
 /* =============== Why Should I Vaccine's section style =============== */
+.vaccine-information{
+    position: relative;
+}
+
+.information__container1 h1{
+    margin-top: 10%;
+    margin-bottom: 25px;
+    left: 10.1%;
+}
+
+.information__container1 p{
+    width: 50%;
+    left: 10.1%;
+    color: #98a2b3;
+    font-weight: 500;
+    font-size: 16pt;
+}
+
+.information__container2{
+    position: relative;
+    width: 90%;
+    height: 400px;
+    margin: 100px auto;
+}
+
+.information__container2 .box__container{
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    width: 23%;
+    height: 400px;
+    margin: 10px;
+    padding: 15px;
+    /* background: red; */
+    border-radius: 20px;
+    box-shadow: 0.1em 0.1em 2em rgba(152, 162, 179, 0.8), -0.1em -0.1em 2em rgba(152, 162, 179, 0.8);
+}
+
+.box__container:hover{
+    bottom: 20px;
+    box-shadow: 0.3em 0.3em 2em rgba(45, 76, 203, 0.8);
+}
+
+.information__container2 .box__container .icon{
+    height: auto;
+    width: 40px;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.box__container h2{
+    color: #1b2d79;
+    font-weight: 600;
+    font-size: 16pt;
+    text-align: left;
+    margin: 20px 0;
+    margin-left: 15%;
+}
+
+.box__container p{
+    color: #79818f;
+    margin-top: 12%;
+    margin-left: 15%;
+    text-align: left;
+    font-weight: 500;
+    font-size: 10pt;
+    word-spacing: 2px;
+    line-height: 1.8;
+}
 
 /* =============== Preparations Before Vaccine's section style =============== */
 
