@@ -310,9 +310,91 @@ button:hover{
 }
 
 /* =============== Preparations Before Vaccine's section style =============== */
+.vaccine-preparation{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* width: 100%; */
+    gap: 1.5rem;
+}
+
+.image__container img{
+    height: auto;
+    width: 680px;
+}
+
+.section-information__container p{
+    margin-top: 5%;
+    margin-left: 8%;
+    color: #79818f;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15pt;
+    /* word-spacing: 2px;
+    line-height: 1.8; */
+}
+
+.vaccine-preparation__title{
+    /* margin-left: 7%; */
+    margin-top: -10%;
+    text-align: left;
+    font-size: 40pt;
+}
+
+.accordion__container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+button.accordion{
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 10px 20px;
+    color: #1b2d79;
+    font-weight: 700;
+    font-size: 14pt;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+    position: relative;
+    top: 2%;
+    left: -5%;
+}
+
+button.accordion::after{
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
+    content: "\f0d8";
+    float: right;
+    padding: 5px;
+}
+
+button.accordion.is-open::after{
+    content: "\f0d7";
+}
+
+button.accordion:hover{
+    background-color: rgb(152, 162, 179, 0.1);
+}
+
+.accordion-icon{
+    height: auto;
+    width: 30px;
+    vertical-align: middle;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.accordion-content{
+    padding: 0 50px;
+    margin: 25px 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    color: #98a2b3;
+    font-weight: 500;
+}
 
 /* =============== Emergency Contact's section style =============== */
-#doctor__image{
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}

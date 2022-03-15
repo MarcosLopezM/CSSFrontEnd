@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaccination</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="icon" href="./assets/icons/syringe-vaccine.svg" type="image/x-icon">
 </head>
@@ -130,15 +131,53 @@
             </div>
         </div>
     </section>
-    <section class="vaccine-preparation">
-        <h1 class="section__title">Preparations Before Vaccine</h1>
-        <p class="section__text">The success of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work: </p>
-        <img class="logo__size" src="./assets/img/front-view-young-woman-sterile-mask-yellow-wall.jpg" alt="Female with mask">
+    <section>
+        <div class="vaccine-preparation">
+            <div class="image__container">
+                <img src="./assets/img/woman.jpg" alt="Female with mask">
+            </div>
+            <div class="accordion__container">
+                <h1 class="section__title vaccine-preparation__title">Preparations Before Vaccine</h1>
+                <p class="section__text">
+                    The success of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work: 
+                </p>
+                <button class="accordion is-open"> <img src="./assets/icons/shield-x-solid.svg" alt="shield x icon" class="accordion-icon"> Avoid alcoholic beverages</button>
+                <div class="accordion-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, id architecto optio in deleniti officiis iure. Id similique necessitatibus dolores?
+                    </p>
+                </div>
+                <button class="accordion is-open"> <img src="./assets/icons/close-square.svg" alt="close square icon" class="accordion-icon"> Avoid stress</button>
+                <div class="accordion-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, id architecto optio in deleniti officiis iure. Id similique necessitatibus dolores?
+                    </p>
+                </div>
+                <button class="accordion is-open"> <img src="./assets/icons/square-poll-vertical-solid.svg" alt="eat healthy icon" class="accordion-icon"> Eat healthy food</button>
+                <div class="accordion-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, id architecto optio in deleniti officiis iure. Id similique necessitatibus dolores?
+                    </p>
+                </div>
+                <button class="accordion is-open"> <img src="./assets/icons/bxs-check-square.svg" alt="check square icon" class="accordion-icon"> Get enough sleep</button>
+                <div class="accordion-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, id architecto optio in deleniti officiis iure. Id similique necessitatibus dolores?
+                    </p>
+                </div>
+                <button class="accordion is-open"> <img src="./assets/icons/defibrilator.svg" alt="exercise icon" class="accordion-icon"> Exercise or physical activity</button>
+                <div class="accordion-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, id architecto optio in deleniti officiis iure. Id similique necessitatibus dolores?
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="vaccination-info">
         <h1 class="section__title">Emergency Contact</h1>
         <p class="section__text">Contact one of the contacts below if you or your family fell unwell and have similar symptoms such as COVID-19, make sure you also take care of yourself before reporting to us: </p>
-        <img class="logo__size" id="doctor__image" src="./assets/img/portrait-man-doctor-using-cellphone.jpg" alt="Male Doctor">
+        <img id="doctor__image" src="./assets/img/male-doctor.jpg" alt="Male Doctor">
     </section>
     <footer>
         <div class="container">
@@ -189,4 +228,5 @@
         </div>
     </footer>
 </body>
+<script src="./scripts/app.js"></script>
 </html>
