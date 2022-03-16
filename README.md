@@ -26,4 +26,4 @@ Y, fuentes obtenidas de:
 
 * [Google Fonts](https://fonts.google.com/)
 
-Por otro lado, la página desplegada se puede encontrar en el siguiente enlace: [Vaccination](vaccination-template.netlify.app).
+Por otro lado, la página desplegada se puede encontrar en el siguiente enlace: [Vaccination](https://vaccination-template.netlify.app/).
