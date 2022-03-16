@@ -39,6 +39,7 @@ header{
 .logo{
     cursor: pointer;
     margin-right: auto;
+    width: 200px;
 }
 
 .nav-links{
@@ -569,9 +570,20 @@ footer{
     margin-left: 5%;
 }
 
+.logo-footer{
+    cursor: pointer;
+    /* margin-right: auto; */
+}
+
+.logo-footer img{
+    width: 200px;
+}
+
 .moto{
     margin-left: -12%;
     margin-top: 5%;
+    position: relative;
+    left: 7%;
     font-weight: 600;
     color: #98a2b3;
     width: 50%;
